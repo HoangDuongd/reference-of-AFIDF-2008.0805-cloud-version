@@ -10,9 +10,6 @@ grpcio==1.32.0
 gym==0.17.3
 idna==2.10
 Markdown==3.2.2
-mkl-fft==1.2.0
-mkl-random==1.1.1
-mkl-service==2.3.0
 numpy==1.19.2
 oauthlib==3.1.0
 olefile==0.46
