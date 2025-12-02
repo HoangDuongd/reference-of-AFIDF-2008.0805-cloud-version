@@ -1,25 +1,38 @@
-# Core Deep Learning
-torch>=2.0.0
-torchvision>=0.15.0
+# ---- CORE LIBRARIES ----
+numpy>=1.26
+SimpleITK>=2.3
+pillow>=10.0
+scipy>=1.11
 
-# Medical Imaging
-SimpleITK>=2.2.0
+# ---- RL / GYM ----
+gymnasium==0.29.1
+pygame==2.5.2        # gymnasium cần
 
-# Reinforcement Learning
-gym>=0.26.0
-cloudpickle>=2.2.0
+# ---- TORCH (GPU trên Kaggle – CUDA 12) ----
+torch==2.1.0
+torchvision==0.16.0
 
-# Image Processing
-opencv-python>=4.8.0
-Pillow>=9.5.0
-
-# Scientific Computing
-numpy>=1.24.0
-scipy>=1.10.0
-
-# Logging & Monitoring
-tensorboard>=2.13.0
-tqdm>=4.66.0
-
-# Utilities
-future>=0.18.0
+# ---- MISC DEPENDENCIES (bản tương thích) ----
+absl-py>=2.1.0
+cachetools>=5.3
+certifi>=2023.7
+cloudpickle>=2.2
+future>=0.18.3
+google-auth>=2.22
+google-auth-oauthlib>=1.1
+grpcio>=1.60
+idna>=3.4
+markdown>=3.4
+oauthlib>=3.2
+opencv-python>=4.8
+protobuf>=4.24
+pyasn1>=0.5
+pyasn1-modules>=0.3
+requests>=2.31
+requests-oauthlib>=1.3
+rsa>=4.9
+tensorboard>=2.15
+tensorboard-plugin-wit>=1.8
+tqdm>=4.66
+urllib3>=2.0
+werkzeug>=3.0
